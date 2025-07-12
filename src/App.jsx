@@ -5,6 +5,7 @@ import './App.css'
 import Header from './component/Header'
 import Main1 from './component/Main1'
 import Main2 from './component/Main2'
+import Footer from './component/Footer'
 
 function App() {
   
@@ -18,7 +19,9 @@ function App() {
         <Main1 />
         <Main2 />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
